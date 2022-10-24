@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #0e0e0e;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  /* box-shadow: 0px 0px 12px rgb(255, 255, 255); */
+  background-color: #FAF9FA;
+  width: 519px;
+  /* height: 672px; */
+  border-radius: 8px;
+  padding: 3rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading_text
+{
+  font-size: 10px;
+  font-weight: 400;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading_two
+{
+  padding-top: 5px;
+}
+.total_amount_card
+{
+  width: 445px;
+  height: 138px;
+  background-color: #D6FF58;
+  margin-top: 22px;
+  
+}
+.card_text {
+  padding-top: 40px;
+}
+.total_amount_heading {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}
+.total_amount_para {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+  color: #4B4B4B;
+}
+.input_area
+{
+  margin-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.input_field
+{
+  margin-top: 30px;
+  width: 445px;
+}
+#outlined-basic {
+  width: 410px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button_collection
+{
+  margin-top: 61px;
+  margin-bottom: 1rem;
+}
+.btn_one {
+  background-color: #1F1F1F;
+  width: 200px;
+  height: 75px;
+
 }
