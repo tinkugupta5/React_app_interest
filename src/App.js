@@ -15,25 +15,21 @@ function App() {
   const calcSum = (e) => {
     e.preventDefault()
     console.log(e);
-
     if(num1===0 || num2===0 || num3===0)
       {
-        alert("please enter a valid weight and height")
+        alert("please enter input")
       }
-      
       else
       {
         let Add = parseInt(num1)*parseInt(num2)*parseInt(num3)/100;
         console.log(typeof(Add));
         setAdd(parseInt(Add))
-      }
-
+      } 
   }
 
   const handleClick = (e) => {
     setAdd(0);
     window.location.reload();
-
   }
 
   return (
@@ -46,8 +42,8 @@ function App() {
       noValidate
       autoComplete="off"
     ></Box>
-    
     <div className="app">
+      
       <div className='container'>
         <div className='heading_text'>
           <h1 className='heading_one'>Simple Calculator</h1>
