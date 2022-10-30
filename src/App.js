@@ -56,7 +56,6 @@ function App() {
           </div>
         </div>
         <form onSubmit={calcSum}>
-
         <div className='input_area'>
             <div className='input_field'>
             <TextField type="number" value={num1 || ""} onChange={(e) => setNum1(e.target.value)} id="outlined-basic" label="₹ Principal amount" variant="outlined" />
